@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+    <script src="https://kit.fontawesome.com/bf149852aa.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="download.png">
+    <link rel="stylesheet" href="e-commerce.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="download.png" alt="bike logo" width="60px" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Payment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#payment">Card/UPI</a></li>
+                            <li><a class="dropdown-item" href="#">COD</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="home" style="margin-top:5%">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-5 homeheading">
+                    <h1>Bicycle Store.🚲🚴🏻🚵🏽‍♀️</h1>
+                    <button class="btn btn-success">Shop More</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="about">
+        <h1 class="text-center mt-5 mb-5">About</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <!-- content -->
+                    <h2 class="aboutheading"> Bio..</h2>
+                    <p>సైకిల్ తొక్కటం ఆరోగ్యానికి మంచిది. </p>
+                    <button class="btn btn-success">View More</button>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <!-- carousel -->
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./white-bicycle-standing-park-morning-fitness-loneliness.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./close-up-bike-nature.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./download.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+            <h1 class="text-center mt-5 mb-5">Products</h1>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card text-center p-4">
+                        <img src="./white-bicycle-standing-park-morning-fitness-loneliness.jpg" />
+                        <h4>White Cycle</h4>
+                        <p>₹6000/-</p>
+                        <button class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card text-center p-4">
+                        <img class="gcycle" src="./close-up-bike-nature.jpg" />
+                        <h4>Green Cycle</h4>
+                        <p>₹6000/-</p>
+                        <button class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card text-center p-4">
+                        <img src="./white-bicycle-standing-park-morning-fitness-loneliness.jpg" />
+                        <h4>White Cycle</h4>
+                        <p>₹6000/-</p>
+                        <button class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card text-center p-4">
+                        <img src="./white-bicycle-standing-park-morning-fitness-loneliness.jpg" />
+                        <h4>White Cycle</h4>
+                        <p>₹6000/-</p>
+                        <button class="btn btn-success">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="payment">
+        <div class="container">
+            <h1 class="text-center mt-5 mb-5">Payment</h1>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <!-- form -->
+                    <div class="input-group flex-nowrap m-3">
+                        <span class="input-group-text" id="addon-wrapping">Card Holder Name</span>
+                        <input type="text" class="form-control" placeholder="Name" aria-label="Username"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap m-3">
+                        <span class="input-group-text" id="addon-wrapping">Card Number</span>
+                        <input type="Number" class="form-control" placeholder="1234 5678 0987" aria-label="Card-num"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap m-3">
+                        <span class="input-group-text" id="addon-wrapping">CVV</span>
+                        <input type="number" class="form-control" placeholder="XXX" aria-label="CVV"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap m-3">
+                        <span class="input-group-text" id="addon-wrapping">Expiry date</span>
+                        <input type="date" class="form-control" placeholder="01/31" aria-label="exdate"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <button class="btn btn-success"> Pay Now</button>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <!-- payment image -->
+                    <img src="./Discount-PNG-Images-HD.png" width="80%" />
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" class="mb-4">
+        <div class="container">
+            <h1 class="text-center mt-5 mb-5">Contact</h1>
+            <div class="row">
+                <div class="col-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.9050985961!2d78.24323320633981!3d17.41260864041184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1763379430233!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5>
+                        Get to know Us
+                    </h5>
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Press realeases</p>
+                    <p>Sciences</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5>
+                        Get to know Us
+                    </h5>
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Press realeases</p>
+                    <p>Sciences</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5>
+                        Get to know Us
+                    </h5>
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Press realeases</p>
+                    <p>Sciences</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5>
+                        Get to know Us
+                    </h5>
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Press realeases</p>
+                    <p>Sciences</p>
+                </div>
+            </div>
+        </div>
+<section class="text-center" style="background-color: black; color:white;">
+<h5 class="p-2">&copy; All right reserved to ..........org, year</h5>
+</section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

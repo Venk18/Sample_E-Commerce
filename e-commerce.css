@@ -1,0 +1,42 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar {
+  background-color: pink;
+}
+.nav-item .nav-link {
+  color: green;
+  font-weight: bold;
+}
+#home {
+  background-image: url(horizontal-photo-female-cyclist-motion-who-rides-bike-road-nature.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.homeheading h1 {
+  color: red;
+  font-size: 50px;
+}
+.aboutheading h2{
+  color:palevioletred;
+}
+.d-block{
+  aspect-ratio: 4/3;
+  width:100%;
+}
+.gcycle{
+  aspect-ratio: 3/2;  
+  width:100%;
+}
+.input-group .input-group-text{
+  background-color: pink;
+  color: green;
+  border:none;
+}
+#footer{
+  background-color: pink;
+}
